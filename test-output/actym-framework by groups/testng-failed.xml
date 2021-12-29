@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [actym-framework by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-bvt(failed)">
+    <groups>
+      <run>
+        <include name="bvt"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="intial.Login">
+        <methods>
+          <include name="logoutbtn_verfying"/>
+          <include name="logOutApp"/>
+          <include name="loginToApp"/>
+          <include name="HomePagetitle"/>
+          <include name="launchBrowser"/>
+          <include name="Report_PageVerfying"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- intial.Login -->
+    </classes>
+  </test> <!-- GRP-bvt(failed) -->
+</suite> <!-- Failed suite [actym-framework by groups] -->

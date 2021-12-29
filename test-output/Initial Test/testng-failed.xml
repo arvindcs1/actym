@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Initial Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional-Testing(failed)">
+    <classes>
+      <class name="intial.NewCustomerCreation">
+        <methods>
+          <include name="logOutApp"/>
+          <include name="loginToApp"/>
+          <include name="launchBrowser"/>
+          <include name="custmernameEnabledcheck"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- intial.NewCustomerCreation -->
+    </classes>
+  </test> <!-- Functional-Testing(failed) -->
+</suite> <!-- Failed suite [Initial Test] -->
